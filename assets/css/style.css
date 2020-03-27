@@ -1,0 +1,176 @@
+body {
+    background-color: #EBF0F5;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #060606;
+}
+
+
+
+
+
+
+
+.mainmenu-area {
+    height: 75px;
+    background-color: white;
+    padding-top:10px;
+    z-index: 100000;
+    box-shadow: 0 4px 10px -10px rgba(0, 0, 0, 0.6);
+}
+#main_menu {
+    background-color:white;
+}
+.navbar-nav {
+    margin: auto;
+}
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-item a {
+    font-size: 16px;
+    color: #17212b !important;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.nav-item a:hover {
+    color: #0099ab !important;
+}
+
+.navbar-nav li:first-child .dropdown-menu {
+    min-width: 250px;
+}
+.login-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3392C9;
+    margin-left: 10px;
+}
+
+
+.hero-title {
+    font-weight: 900;
+}
+
+
+
+
+.faq-body {
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 30px 30px 50px 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px -10px rgba(0, 0, 0, 0.6);
+}
+.faq-body-nocontent {
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 30px 30px 50px 30px;
+    background-color: transparent;
+}
+.faq-image {
+    width: 60px;
+    height: 60px;
+}
+.faq-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.faq-question {
+    padding-top: 20px;
+}
+
+
+.faq-question a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3392C9;
+}
+.faq-question a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+
+.getstarted {
+    background-color: #1D3A5D;
+    padding: 90px 0px;
+}
+.getstarted-text1 {
+    font-size: 52px;
+    color: white;
+}
+.getstarted-text2 {
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    color: white;
+}
+.getstarted-login {
+    background-color: #4CBF92;
+    margin-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+
+
+
+
+
+.footer {
+    margin-top: 40px;
+    padding: 76px 0px 40px 0px;
+    background-color: white;
+
+}
+.footer-title {
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 20px;
+    letter-spacing: 1.2px;
+    color: black;
+}
+.footer-link {
+    padding-inline-start: 0px
+}
+.footer-link li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: none;
+}
+.footer-link li:first-child {
+    padding-top: 20px;
+}
+.footer-link a {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    color: black;
+    text-decoration: none;
+}
+.footer-link a:hover {
+    color: red;
+}
+.footer-last {
+    font-size: 24px;
+    color: #B0B9C3;
+    margin-top: 80px;
+}
+
+
+.modal-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
